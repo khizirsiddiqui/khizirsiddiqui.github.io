@@ -124,7 +124,7 @@
                 <source src="images/nerfbake_15.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div>
-                <img src='images/kd_lib_info.png' width="160">
+                <img src='images/nst.jpg' width="160">
               </div>
               <script type="text/javascript">
                 function nerfbake_start() {
@@ -148,31 +148,6 @@
                 Pytorch implementation of <a href="https://arxiv.org/abs/1611.07865">Gatys et al, 2017</a>.
               </p>
             </td>
-            <script>
-              var getJSON = function(url, callback) {
-                  var xhr = new XMLHttpRequest();
-                  xhr.open('GET', url, true);
-                  xhr.responseType = 'json';
-                  xhr.onload = function() {
-                    var status = xhr.status;
-                    if (status === 200) {
-                      callback(null, xhr.response);
-                    } else {
-                      callback(status, xhr.response);
-                    }
-                  };
-                  xhr.send();
-              };
-              getJSON("https://api.github.com/repos/SforAiDl/KD_Lib",
-                      function(err, data) {
-                        if (err == null) {
-                          var t = document.getElementById('kdstars');
-                          t.innerHTML = "(<img src='images/git_star.jpg' width=10> ";
-                          t.innerHTML += data.stargazers_count + " )";
-
-                        }
-                      });
-            </script>
         </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
