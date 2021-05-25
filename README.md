@@ -1,0 +1,1 @@
+This is the source code to Khizir Siddiqui's public academic website. The source code is heavily copied from https://jonbarron.info/.
